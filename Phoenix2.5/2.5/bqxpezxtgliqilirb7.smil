@@ -1,0 +1,15 @@
+<smil xmlns="http://www.w3.org/2001/SMIL20/Language"
+xmlns:rn="http://features.real.com/2001/SMIL20/Extensions">
+	<head>
+		<meta name="title" content="Argentina-Jamaica 5.0"/>
+		<meta name="author" content="argentina@jamaica.net"/>
+		
+	</head>
+	<body>
+		<audio src="jmclktapksazfzdoa1.ram">
+			<area href="" begin="1s" external="true" actuate="onLoad" sourcePlaystate="play"/>
+			
+			
+		</audio>
+	</body>
+</smil>

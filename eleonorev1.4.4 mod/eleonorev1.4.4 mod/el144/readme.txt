@@ -1,0 +1,44 @@
+
+
+======================================= 
+===>  Eleonore Exp pack 1.4.4 MOD  <===
+======================================= 
+
+
+Установка:
+-------------------------------------------------
+1) Скопировать содержимое на хост, установить для папки load и всего его содержимого права 777
+2) Отредактировать настройки связки в файле config.php 
+3) Запустить инсталятор install.php если установка прошла правильно, то увидите "Installation Eleonore Exp is finished. Please delete install.php"
+
+
+
+
+Дополнительные возможности: 
+-------------------------------------------------
+1.Редирект не уникального траффика настраивается в файле config.php
+переменной $redir_not_uniq (по умолчанию идет на пустой файл 404.php), так же можно задать редирект на любой нужный url.
+2. Файл загружается теперь через админку.
+
+
+
+
+Включенные в связку сплоиты:
+-------------------------------------------------
+
+> MDAC				//MSIE
+> MS009-02			//MSIE
+> DX DirectShow			//MSIE
+> ActiveX pack			//MSIE 
+> compareTo			//FF 
+> JNO (JS navigator Object Code)		//FF
+> MS06-006			//FF
+> Font tags				//FF
+> Telnet				//Opera
+> PDF collab.getIcon 			//All
+> PDF Util.Printf 			//All
+> PDF collab.collectEmailInfo 		//All
+> Java D&E			//All
+> Soc pack (iframe ver)		//All
+> PDF MEDIA.NEWPLAYER(); //All
+> Java_gsb added //All

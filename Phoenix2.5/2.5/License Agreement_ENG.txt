@@ -1,0 +1,21 @@
+Buying this product you accept following rules:
+
+1)Byuing this software you are fully responsible for it's using and for consequences which can take a place as a result of using this product in inapporiate way or with evil goals or as a violations of it's using.
+The author doesn't allow to place that software over the Internet. You can only use that using a virtual machine  or test laboratory network (minibotnet).
+Please note that using that product with criminal goals will lead you to law responsilibity in your country.
+
+2)As following from point 1) i gurantee only:
+a)Set of exploits marked on the moment of buying that software
+b)Exploits source code won't be detected by AVs if process of running of that exploits is not detectable by any AV.
+c)Any claims like 'why i have so low % on usa traffics from traffics marketplace' will be considered as violation of this license agrreement (following point 1) and can lead to denial of license.
+
+3)It's prohibited to give a pack or it's part to any third parties. It's prohibited to give a links to index file to any parties with a goal of reverse ingeneering.
+  If your build of that software or that's part will be realised from third parties or in public you will have denial of license whatever have happened.
+  The stories like 'I was hacked','My stupid pal gave that to...','I exchanged that to...' will lead to instant denial of license. 
+  We are adult people and if we bought the software for that high price we have to use that responsible.
+
+4)It's prohibited to modify scripts of exploit's kit and replace admin cp of exploit's kit with files which you didn't get straight from the author.
+  
+5)It's prohibited to rent that pack, in other way - denial of license.
+
+6)Antiadvertising is also prohibited, in other way - denial of license.

@@ -1,0 +1,151 @@
+/* CSS Style for Fresh Login Page by Loubna Aggoun http://laggoun.com */
+
+{border:0;outline:0;vertical-align:baseline;margin:0;padding:0}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:non }blockquote:before,blockquote:after,q:before,q:after{box-content:none}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+
+/* Fresh Login Page Style by Loubna Aggoun http://laggoun.com */
+
+body{
+	font-family: Helvetica, 'Lucida Grande', Arial, sans-serif;
+	font-size: 13px;
+	color: #406da0;
+}
+
+div.box-content {
+	margin-top: 10px;
+	padding: 20px;
+	background-color: #ffffff;
+	border: 1px solid #bac4cf;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: rgba(0,0,0,0.1) 0px 2px 2px;
+	-moz-border-radius: 10px;
+	-moz-box-shadow: rgba(0,0,0,0.1) 0px 2px 2px;
+	border-radius: 10px;
+	box-shadow: rgba(0,0,0,0.1) 0px 2px 2px;
+}
+
+#hello { 
+	padding-left: 10px;
+	width: 200px;
+	height: 25px; 
+	background-color: #7cacd5;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7cacd5), to(#b6d0e8));
+	background: -moz-linear-gradient(0% 100% 90deg,#b6d0e8, #7cacd5);
+	border: 1px solid #7da0c4;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+} 
+
+#boby1 { 
+	padding-left: 10px;
+	width: 50px;
+	height: 25px; 
+	background-color: #7cacd5;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7cacd5), to(#b6d0e8));
+	background: -moz-linear-gradient(0% 100% 90deg,#b6d0e8, #7cacd5);
+	border: 1px solid #7da0c4;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+} 
+
+#boby { 
+	padding-left: 10px;
+	width: 50px;
+	height: 25px; 
+	background-color: #7cacd5;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7cacd5), to(#b6d0e8));
+	background: -moz-linear-gradient(0% 100% 90deg,#b6d0e8, #7cacd5);
+	border: 1px solid #7da0c4;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+} 
+
+
+#doLogin3{
+	padding: 5px 5px 8px 5px;
+	width: 106px;
+	background-color: #5ea51a;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#c2de62), to(#5ea51a));
+	background: -moz-linear-gradient(0% 100% 90deg,#5ea51a, #c2de62);
+	border: 1px solid #74a42e;
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: rgba(0,0,0,0.1) 0px 2px 2px;
+	-webkit-box-shadow:inset 0 0 2px #ffffff;
+	-moz-border-radius: 3px;
+	-moz-box-shadow: rgba(0,0,0,0.1) 0px 2px 2px;
+	-moz-box-shadow:inset 0 0 2px #ffffff;
+	border-radius: 3px;
+	box-shadow: rgba(0,0,0,0.1) 0px 2px 2px;
+	box-shadow:inset 0 0 0px #ffffff;
+	
+	font-family: "Calibri";
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	text-shadow: rgba(59, 110, 0, 0.75) 0px 1px 1px;
+}
+
+#doLogin3:hover{
+	background-color: #c2de62;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5ea51a), to(#c2de62));
+	background: -moz-linear-gradient(0% 100% 90deg,#c2de62, #5ea51a);
+}
+
+#doLogin3t:active{
+	background: #5ea51a;
+}
+
+
+
+#doLogin4{
+	padding: 4px 5px 4px 5px;
+	width: 70px;
+	background-color: #aa0909;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fb7272), to(#aa0909));
+	background: -moz-linear-gradient(0% 100% 90deg,#aa0909, #fb7272);
+	border: 1px solid #d34242;
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: rgba(0,0,0,0.1) 0px 2px 2px;
+	-webkit-box-shadow:inset 0 0 2px #ffffff;
+	-moz-border-radius: 3px;
+	-moz-box-shadow: rgba(0,0,0,0.1) 0px 2px 2px;
+	-moz-box-shadow:inset 0 0 2px #ffffff;
+	border-radius: 3px;
+	box-shadow: rgba(0,0,0,0.1) 0px 2px 2px;
+	box-shadow:inset 0 0 0px #ffffff;
+	
+	font-family: "Calibri";
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	text-shadow: rgba(59, 110, 0, 0.75) 0px 1px 1px;
+}
+
+#doLogin4:hover{
+	background-color: #fb7272;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#aa0909), to(#fb7272));
+	background: -moz-linear-gradient(0% 100% 90deg,#fb7272, #aa0909);
+}
+
+#doLogin4t:active{
+	background: #aa0909;
+}
+
+
+
+}

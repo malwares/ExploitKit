@@ -1,0 +1,206 @@
+/* CSS Style for Fresh Login Page by Loubna Aggoun http://laggoun.com */
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{box-content:none}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+/* Fresh Login Page Style by Loubna Aggoun http://laggoun.com */
+
+body{
+	margin: auto;
+	width: 400px;
+	height: auto;
+	background-color: #e9eff4;
+	
+	font-family: Helvetica, 'Lucida Grande', Arial, sans-serif;
+	font-size: 14px;
+	color: #406da0;
+}
+
+header{
+	display: block;
+	margin-top: 150px;
+	
+	font-family: 'Helvetica CY', 'Helvetica Neue', Helvetica, 'Lucida Grande', Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: #ffffff 0px 1px 0px;
+	text-transform: uppercase;
+}
+
+header a{
+	text-decoration: none;
+	color: #406da0;
+	-webkit-transition:color 400ms ease-in;  
+	-moz-transition:color 400ms ease-in;  
+	-o-transition:color 400ms ease-in;  
+	transition:color 400ms ease-in;  }
+
+header a:hover, header a:focus{
+	color: #6ccc3d;
+}
+
+header a:active{
+	color: #01973e;
+}
+
+div.box-content {
+	margin-top: 10px;
+	padding: 20px;
+	background-color: #ffffff;
+	border: 1px solid #bac4cf;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: rgba(0,0,0,0.1) 0px 2px 2px;
+	-moz-border-radius: 10px;
+	-moz-box-shadow: rgba(0,0,0,0.1) 0px 2px 2px;
+	border-radius: 10px;
+	box-shadow: rgba(0,0,0,0.1) 0px 2px 2px;
+}
+
+label{
+	display: block;
+	margin-bottom: 8px;
+	
+	font-weight: bold;
+}
+
+.forgot_password{
+	font-weight: normal;
+}
+
+a.forgot_password{
+	text-decoration: none;
+	color: #a3b9d2;
+	-webkit-transition:color 400ms ease-in;  
+	-moz-transition:color 400ms ease-in;  
+	-o-transition:color 400ms ease-in;  
+	transition:color 400ms ease-in; 
+}
+
+a:hover.forgot_password{
+	color: #406da0;
+}
+
+li{
+	margin-bottom: 25px;
+}
+
+#hello { 
+	padding-left: 10px;
+	width: 345px;
+	height: 30px; 
+	background-color: #7cacd5;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7cacd5), to(#b6d0e8));
+	background: -moz-linear-gradient(0% 100% 90deg,#b6d0e8, #7cacd5);
+	border: 1px solid #7da0c4;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+} 
+
+#buttons{
+	text-align: right;
+}
+
+#doLogin3{
+	padding: 5px 5px 8px 5px;
+	width: 60px;
+	background-color: #5ea51a;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#c2de62), to(#5ea51a));
+	background: -moz-linear-gradient(0% 100% 90deg,#5ea51a, #c2de62);
+	border: 1px solid #74a42e;
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: rgba(0,0,0,0.1) 0px 2px 2px;
+	-webkit-box-shadow:inset 0 0 2px #ffffff;
+	-moz-border-radius: 3px;
+	-moz-box-shadow: rgba(0,0,0,0.1) 0px 2px 2px;
+	-moz-box-shadow:inset 0 0 2px #ffffff;
+	border-radius: 3px;
+	box-shadow: rgba(0,0,0,0.1) 0px 2px 2px;
+	box-shadow:inset 0 0 0px #ffffff;
+	
+	font-family: "Helvetica Neue";
+	font-size: 11px;
+	font-weight: bold;
+	color: white;
+	text-shadow: rgba(59, 110, 0, 0.75) 0px 1px 1px;
+}
+
+#doLogin3:hover{
+	background-color: #c2de62;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5ea51a), to(#c2de62));
+	background: -moz-linear-gradient(0% 100% 90deg,#c2de62, #5ea51a);
+}
+
+#doLogin3t:active{
+	background: #5ea51a;
+}
+
+#reset{
+	padding: 5px 5px 8px 5px;
+	width: 60px;
+	background-color: #aa0909;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fb7272), to(#aa0909));
+	background: -moz-linear-gradient(0% 100% 90deg,#aa0909, #fb7272);
+	border: 1px solid #d34242;
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: rgba(0,0,0,0.1) 0px 2px 2px;
+	-webkit-box-shadow:inset 0 0 2px #ffffff;
+	-moz-border-radius: 3px;
+	-moz-box-shadow: rgba(0,0,0,0.1) 0px 2px 2px;
+	-moz-box-shadow:inset 0 0 0px #fff;
+	border-radius: 3px;
+	box-shadow: rgba(0,0,0,0.1) 0px 2px 2px;
+	box-shadow:inset 0 0 0px #fff;
+	font-family: "Helvetica Neue";
+	font-size: 11px;
+	font-weight: bold;
+	color: white;
+	text-shadow: rgba(104, 0, 11, 0.75) 0px 1px 1px;
+}
+
+#reset:hover{
+	background-color: #fb7272;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#aa0909), to(#fb7272));
+	background: -moz-linear-gradient(0% 100% 90deg,#fb7272, #aa0909);
+}
+
+#reset:active{
+	background: #aa0909;
+}
+
+footer{
+	display: block;
+	margin-top: 6px;
+	margin-right: 7px;
+	
+	font-size: 12px;
+	text-align: right;
+	color: rgba(64, 109, 160, 0.6);
+}
+
+footer a{
+	text-decoration: none;
+	color: #406da0;
+	-webkit-transition:color 400ms ease-in;  
+	-moz-transition:color 400ms ease-in;  
+	-o-transition:color 400ms ease-in;  
+	transition:color 400ms ease-in;  }
+	
+footer a:hover, header a:focus{
+	color: #6ccc3d;
+}
+	
+footer a:active{
+	color: #01973e;
+}
+	
+}
+
+
+
+
+
+

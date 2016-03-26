@@ -1,0 +1,22 @@
+var sdjk='val';
+var sdjd='nesca';
+
+function rewiry(yiyr,fjkhd){
+	return eval('yiyr.replac'+'e(/kljf hdfk sdf/g,fjkhd);');
+} 
+
+function jkshdk(){
+	var d='e';
+	var fsdjkl= window[d+sdjk];
+	return fsdjkl;
+}
+
+
+function jklsdjfk() {
+
+	var df='u';
+	var de='pe';
+
+	var dfshk = window[df + sdjd + de];
+	return dfshk;
+}

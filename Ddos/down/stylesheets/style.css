@@ -1,0 +1,235 @@
+/* ### GENERAL ### */
+* { margin: 0px; padding: 0px; }
+body { background:url(../images/body_bg1.jpg) top repeat-x #ffffff; font:12px Arial, Helvetica, sans-serif; 
+color:#6e6e6e; padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}
+
+/* ### GLOBAL CLASSES ### */
+.clear { clear: both; margin:0px; padding:0px; }
+
+a{ color:#6db51c; text-decoration:underline;}
+a:hover{ text-decoration:none;}
+
+
+/* ### WRAPPER ### */
+#wrapper { position: relative; display: block; width: 100%; min-height: 100%; }
+
+/* ### MAIN CONTAINER ### */
+#mainCntr { position: relative; display: block;width: 100%; }
+
+	/* ### HEADER CONTAINER ### */
+	#headerCntr { position: relative;  width: 980px; height: 93px; overflow: hidden; margin:0 auto; }
+	#headerCntr h1 { padding: 22px 0px 36px 0px; overflow: hidden; float: left;}
+	#headerCntr h1 a { display: block; width: 288px; height: 35px; overflow: hidden; text-indent: -9999px; background: url(../images/logo.jpg) top left no-repeat; }
+	
+		/* ### MENU CONTAINER ### */		
+		#menuCntr{ padding-top: 36px; height: 43px; float: right;}				
+		#menuCntr ul{ padding:0px 0px 0px 0px;}						
+		#menuCntr li{list-style: none; float:left; }						
+		#menuCntr ul li a {padding:0px 30px 0px 30px; font-family:Myriad Pro; text-decoration:none; font-weight:normal; color:#c5c4c4; font-size: 14px; line-height: 57px; display:block;}						
+		#menuCntr ul li a:hover{ background: #000000; text-decoration:none;}	
+		#menuCntr ul li a.active{ background: #000000; text-decoration:none;}
+		
+	/* ### BANNER CONTAINER ### */
+	#bannerCntr { overflow: hidden; width: 100%; background:url(../images/slider_bg.jpg) repeat-x; }
+	#bannerCntrinner { overflow: hidden; width: 100%; background:url(../images/banner_background.jpg) center top no-repeat; }
+		
+		/* ### BANNER BOX ### */		
+		.bannerbox{ padding-bottom:69px; width: 980px; height: 396px; position: relative; overflow:hidden; margin:auto; }	
+		.buttons{ padding-top: 292px; width: 472px; float:left; position: absolute; z-index: 601; top: 0px; left: 0px;}
+		.buttons a{ padding-right:10px; width:226px; color:#4e4e4e; float:left; font-size:15px; text-decoration:none; text-align:center; line-height:52px; display:block; background:url(../images/more_button.png) left top no-repeat;}
+		.buttons a:hover{background:url(../images/more_button_hover.png) left top no-repeat;}
+		
+		/* ### HAEDING BOX ### */
+		.headingBox {width:100%; height: 143px; background: url(../images/heading_bg.jpg) center top no-repeat; }
+		.heading{ width:980px; margin: 0 auto;}
+		.heading h2 { padding-top:57px; font-size: 48px; color: #0e8597; font-family: Myriad Pro; font-weight: normal; }
+		
+		
+	/* ### CONTENT CONTAINER ### */
+	#contentCntr { overflow: hidden; width: 100%;}
+	#contentCntr .center{ width:980px; overflow: hidden; margin: 0 auto;}
+	#contentCntr.background{ overflow: hidden; background: url(../images/background_bg.jpg) repeat-x #FFFFFF;}
+	
+		/* ### LEFT CONTAINER ### */
+		#leftCntr{ width: 294px; float:left}
+		
+			/* ### STARTED BOX ### */
+			.startedBox{padding:11px 16px 11px 24px; width: 253px; margin-top:39px; overflow:hidden; background: url(../images/standard_bg.jpg) left top no-repeat;}
+			.startedBox h2{ padding-bottom: 15px; width:175px; font-size: 30px; font-weight:normal; font-family:Myriad Pro;  color: #2b2a2a; background:url(../images/heading_bor.jpg) left bottom no-repeat;}
+			.startedBox p{ padding-top:5px; color: #6e6e6e; line-height: 20px;}
+			.startedBox img{ padding-top: 10px; float: right; background: no-repeat;}
+			
+			/* ### OUR BLOG BOX ### */
+			.ourbloginnerBox{ width: 294px; margin-top:25px; overflow:hidden; background: url(../images/our_inner_blog_bg.jpg) repeat-y;}
+			.ourbloginnerBox .top{ width: 294px; background: url(../images/our_inner_blog_top.png) left top no-repeat;}
+			.ourbloginnerBox .bottom{ padding: 11px 2px 20px 24px; overflow:hidden; width: 268px; background: url(../images/our_inner_blog_bottom.png) left bottom no-repeat;}
+			.ourbloginnerBox h2{ padding-left: 58px; font-size: 20px; line-height:50px; font-weight:normal; font-family:Myriad Pro;  color: #2b2a2a; background: url(../images/our_h2_bg.jpg) left top no-repeat;}
+			.ourbloginnerBox p span{ padding:9px 0px 4px 0px; color: #575757; font-weight: bold; display:block;}
+			.ourbloginnerBox p{ padding-bottom:12px; width: 247px; overflow: hidden;color: #575757; line-height: 20px; background: url(../images/p_border.jpg) left bottom repeat-x;}
+			.ourbloginnerBox a{ margin:17px 0px 0px 115px; width: 82px; padding-left: 48px; font-size: 12px; float:right; text-decoration: none; color: #FFFFFF; display:block; line-height:22px; font-style: italic; background:url(../images/more_button2.png) left top no-repeat;}
+			.ourbloginnerBox a:hover{ text-decoration: underline;}
+			.ourbloginnerBox .last{ padding-top:10px; background:none; }
+			
+		/* ### RIGHT CONTAINER ### */
+		#rightCntr{ width:652px; float: right;}
+			
+			/* ### ABOUT BOX ### */
+			.aboutBox{ padding-top:40px; width:652px; overflow:hidden;}
+			.aboutBox h3{ padding: 12px 0px 0px 62px; font-weight:normal; font-size: 20px; font-family:Myriad Pro; color: #2b2a2a; background:url(../images/about_icon.jpg) left top no-repeat;}
+			.aboutBox h3 span{ padding-bottom:14px; display:block; background:url(../images/p_border.jpg) bottom repeat-x;}
+			.aboutBox p{ padding-top:26px; color: #575757; line-height: 20px;}
+			.aboutBox .first{ padding-top:19px; display:block; color: #575757; font-style:italic; line-height: 20px;}
+			.aboutBox a{ padding-left:67px; font-size: 12px; text-decoration: none; color: #FFFFFF; line-height:33px; display:block; font-style: italic; background:url(../images/more_button1.png) left top no-repeat;}
+			.aboutBox a:hover{ text-decoration: underline;}
+			.aboutBox img{ margin:36px 27px 0px 0px; border: solid 6px #c1c1c1; float:left}
+			
+						/* ### ABOUT BOX 2 ### */
+			.aboutBox2{ padding-top:40px; width:652px; overflow:hidden;}
+			.aboutBox2 h3{ padding: 12px 0px 0px 62px; font-weight:normal; font-size: 20px; font-family:Myriad Pro; color: #2b2a2a; background:url(../images/) left top no-repeat;}
+			.aboutBox2 h3 span{ padding-bottom:14px; display:block; background:url(../images/p_border.jpg) bottom repeat-x;}
+			.aboutBox2 p{ padding-top:26px; color: #575757; line-height: 20px;}
+			.aboutBox2 .first{ padding-top:5px; display:block; color: #575757; font-style:italic; line-height: 8px;}
+			.aboutBox2 a{ padding-left:67px; font-size: 12px; text-decoration: none; color: #FFFFFF; line-height:10px; display:block; font-style: italic; background:url(../images/more_button1.png) left top no-repeat;}
+			.aboutBox2 a:hover{ text-decoration: underline;}
+			.aboutBox2 img{ margin:36px 27px 0px 0px; border: solid 6px #c1c1c1; float:left}
+			
+			/* ### MOTIVE BOX ### */
+			.motiveBox{ padding:60px 0px 70px 0px; float:left; width:294px; overflow:hidden;}
+			.motiveBox h3{padding: 13px 0px 20px 82px; font-size: 20px; font-family:Myriad Pro; color: #2b2a2a;  font-weight:normal; background:url(../images/about_icon1.jpg) left top no-repeat;}
+			.motiveBox h3 span{ padding-top:10px; font-style:italic; font-family:Arial, Helvetica, sans-serif; font-size:12px;display:block; }
+			.motiveBox .icon {background:url(../images/about_icon2.jpg) left top no-repeat;}
+			.motiveBox.lasst{ float:right;}
+			.motiveBox p{ padding-top:22px; color: #575757; line-height: 20px;}
+			.motiveBox .border{background:url(../images/p_border.jpg) top repeat-x;}
+			
+			/* ### TEXT BOX ### */
+			.textBox{ padding-top:40px; width:652px; overflow:hidden;}
+			.textBox h3{ padding: 12px 0px 5px 62px; font-weight:normal; font-size: 20px; font-family:Myriad Pro; color: #2b2a2a; background:url(../images/service_icon1.jpg) left top no-repeat;}
+			.textBox h3 span{ padding-bottom:10px; display:block; background:url(../images/p_border.jpg) bottom repeat-x;}
+			.textBox p{ padding-top:26px; color: #575757; line-height: 20px;}
+			.textBox .icon1{background:url(../images/portfolio_icon.jpg) left top no-repeat;}
+			.textBox .icon2{padding: 12px 0px 8px 62px; background:url(../images/contact_iocn.jpg) left top no-repeat;}
+			.textBox .first{ padding-top:10px;}
+			
+			/* ### SERVECE BOX ### */
+			.serviceBox1{ padding:40px 0px 60px 0px; width:652px; overflow:hidden;}
+			.serviceBox1 h3{ font-weight:normal; font-size: 20px; font-family:Myriad Pro; color: #2b2a2a; background:url(../images/p_border.jpg) left bottom repeat-x; }
+			.serviceBox1 h3 span{ padding:10px 0px 18px 0px; font-size:12px; color:#575757; font-family:Arial, Helvetica, sans-serif; display:block; }
+			.serviceBox1 p{ padding-top:26px; color: #575757; line-height: 20px;}
+			.serviceBox1 a{ margin:17px 0px 0px 0px; width: 174px; padding-left: 68px; font-size: 12px; float: left; text-decoration: none; color: #FFFFFF; display:block; line-height:31px; font-style: italic; background:url(../images/more_button3.png) left top no-repeat;}
+			.serviceBox1 a:hover{ text-decoration: underline;}
+			.serviceBox1 .serviceBox2{ width:652px; overflow:hidden;}
+			.serviceBox1 img{ padding:60px 58px 100px 19px; float:left;}
+			
+			/* ### PORTFOILIO BOX ### */
+			.portfolioBox{ padding:40px 0px 60px 0px; width:652px; overflow:hidden;}
+			.portfolioBox h3{ font-weight:normal; font-size: 20px; font-family:Myriad Pro; color: #2b2a2a; background:url(../images/p_border.jpg) left bottom repeat-x; }
+			.portfolioBox h3 span{ padding:10px 0px 18px 0px; font-size:12px; color:#575757; font-family:Arial, Helvetica, sans-serif; display:block; }
+			.portfolioBox p{ padding-top:26px; color: #575757; line-height: 20px;}
+			
+			.portfolioBox a{ margin:17px 0px 0px 0px; width: 174px; padding-left: 68px; font-size: 12px; float: left; text-decoration: none; color: #FFFFFF; display:block; line-height:31px; font-style: italic; background:url(../images/more_button3.png) left top no-repeat;}
+			.portfolioBox a:hover{ text-decoration: underline;}
+			.portfolioBox .portfolioBox1{ width:652px; overflow:hidden;}
+			.portfolioBox img{ margin: 32px 27px 0px 0px; float:left; border: solid 6px #c1c1c1;}
+			
+			/* ### CONTACT BOX ### */
+			.contactBox{ padding:46px 0px 81px 0px; width:651px; overflow:hidden;}
+			.contactBox input.filed1{ padding: 10px 5px 5px 7px; display: inline-block;  width:450px; height:24px; border:none; background:url(../images/input_bg.jpg) 0px 0px  no-repeat;}
+			.contactBox label{ width:186px; height: 61px; display: inline-block; font:14px Arial, Helvetica, sans-serif; color:#010000; text-align: left; vertical-align:top; font-weight:bold;}
+			.contactBox label span{ display: block; font:12px Arial, Helvetica, sans-serif; color:#888787; text-align: left; vertical-align:top;}
+			.contactBox textarea{ padding:5px 5px 5px 7px; width:450px; display: inline-block; height:179px; border:none;background:url(../images/textarea_bg.jpg) 0px 0px no-repeat; }
+			.contactBox input.button{ margin:18px 0px 0px 189px; float:left; background:url(../images/send.jpg) 0px 0px no-repeat; width:126px; height:37px; border:none; cursor:pointer; }
+			
+	
+		/* ### TOP CONTAINER ### */
+		#topCntr{ width: 100%; overflow: hidden; background: #f2f2f2;}
+		#topCntrinner{ padding:16px 0px 33px 0px; width:980px; overflow: hidden; margin: 0 auto;}
+		
+		/* ### WELCOME BOX ### */
+		.welcomeBox{ padding-right: 39px; float: left; width:313px;}
+		.welcomeBox h2{ padding: 22px 0px 19px 70px; font-weight:normal; font-size: 20px; font-family:Myriad Pro;  color: #2b2a2a; background:url(../images/star_icon.png) left top no-repeat;}
+		.welcomeBox p{ padding:11px 0px 35px 0px; color: #575757; line-height: 20px;}
+		.welcomeBox a{ padding-left:67px; font-size: 12px; text-decoration: none; color: #FFFFFF; line-height:33px; display:block; font-style: italic; background:url(../images/more_button1.png) left top no-repeat;}
+		.welcomeBox a:hover{ text-decoration: underline;}
+		
+		/* ### WHAT BOX ### */
+		.whatBox{ padding-right: 42px; float: left; width:295px;}
+		.whatBox h2{ padding: 22px 0px 19px 70px; font-size: 20px; font-weight:normal; font-family:Myriad Pro;  color: #2b2a2a; background:url(../images/question_mark_icon.png) left top no-repeat;}
+		.whatBox p{ padding:11px 0px 35px 0px; color: #575757; line-height: 20px;}
+		.whatBox a{ padding-left:67px; font-size: 12px; text-decoration: none; color: #FFFFFF; line-height:33px; display:block; font-style: italic; background:url(../images/more_button1.png) left top no-repeat;}
+		.whatBox a:hover{ text-decoration: underline;}
+		
+		/* ### SERVICE BOX ### */
+		.serviceBox{float: left; width:291px;}
+		.serviceBox h2{ padding: 22px 0px 19px 39px; font-size: 20px; font-weight:normal; font-family:Myriad Pro;  color: #2b2a2a; background:url(../images/key_icon.png) left top no-repeat;}
+		.serviceBox p{ padding:11px 0px 35px 0px; color: #575757; line-height: 20px;}
+		.serviceBox a{ padding-left:67px; font-size: 12px; text-decoration: none; color: #FFFFFF; line-height:33px; display:block; font-style: italic; background:url(../images/more_button1.png) left top no-repeat;}
+		.serviceBox a:hover{ text-decoration: underline;}
+		
+		
+		
+		/* ### BOTTOM CONTAINER ### */
+			#bottomCntr { padding:43px 0px 77px 0px; width: 980px; overflow: hidden; margin:0 auto;} 
+			#bottomCntr .left { width: 294px; overflow: hidden; float: left; } 		
+			#bottomCntr .right { width: 650px; overflow: hidden; float: right; } 									
+			
+			
+			/* ### GET BOX ### */
+			.getBox{ padding:11px 16px 22px 24px; margin-bottom:24px; width: 254px; overflow:hidden; background: url(../images/get_bg.jpg) left top no-repeat;}
+			.getBox h2{ padding-bottom: 15px; width:175px; font-size: 30px; font-weight:normal; font-family:Myriad Pro;  color: #2b2a2a; background:url(../images/heading_bor.jpg) left bottom no-repeat;}
+			.getBox p{ padding-top:5px; color: #6e6e6e; line-height: 20px;}
+			.getBox img{ padding-top: 10px; float: right; background: no-repeat;}
+			
+			
+			/* ### OUR BLOG BOX ### */
+			.ourblogBox{ width: 294px; overflow:hidden; background: url(../images/blog_bg.jpg) repeat-y;}
+			.ourblogBox .top{ width: 294px; background: url(../images/blog_top.jpg) left top no-repeat;}
+			.ourblogBox .bottom{ padding: 11px 24px 20px 24px; overflow:hidden; width: 246px; background: url(../images/blog_bottom.jpg) left bottom no-repeat;}
+			.ourblogBox h2{ padding-left: 58px; font-size: 20px; line-height:50px; font-weight:normal; font-family:Myriad Pro;  color: #2b2a2a; background: url(../images/our_h2_bg.jpg) left top no-repeat;}
+			.ourblogBox p span{ padding:9px 0px 4px 0px; color: #575757; font-weight: bold; display:block;}
+			.ourblogBox p{ padding-bottom:12px; width: 247px; overflow: hidden;color: #575757; line-height: 20px; background: url(../images/p_border.jpg) left bottom repeat-x;}
+			.ourblogBox a{ margin:17px 0px 0px 115px; width: 82px; padding-left: 48px; font-size: 12px; float:right; text-decoration: none; color: #FFFFFF; display:block; line-height:22px; font-style: italic; background:url(../images/more_button2.png) left top no-repeat;}
+			.ourblogBox a:hover{ text-decoration: underline;}
+			.ourblogBox .last{ padding-top:10px; background:none; }
+			
+			
+				/* ### COMPANY BOX ### */
+				.companyBox{width:650px; overflow:hidden;  }
+				.companyBox h2{ padding: 22px 0px 19px 39px; font-size: 20px; font-weight:normal; font-family:Myriad Pro;  color: #2b2a2a;}		.companyBox p{ padding:14px 0px 42px 0px; color: #575757; font-size:12px; line-height: 20px;}
+				.companyBox a{ padding-left:67px; font-size: 12px; text-decoration: none; color: #FFFFFF; line-height:33px; display:block; font-style: italic; background:url(../images/more_button1.png) left top no-repeat;}
+				.companyBox a:hover{ text-decoration: underline;}
+				.companyBox .icon1{ padding: 12px 0px 19px 70px; background:url(../images/company_icon1.png) left top no-repeat;}
+				.companyBox .icon2{ padding: 12px 0px 19px 72px; background:url(../images/company_icon2.png) left top no-repeat;}
+				.companyBox .icon3{ padding: 12px 0px 19px 72px; background:url(../images/company_icon3.png) left top no-repeat;}
+				.companyBox .icon4{ padding: 12px 0px 19px 72px; background:url(../images/company_icon4.png) left top no-repeat;}
+				.companyBox1 { padding-right: 42px; width:305px; overflow:hidden; float:left;  }
+				.companyBox2 {width:303px; overflow:hidden; float:left;  }
+				.companyBox3 {padding: 55px 42px 0px 0px; width:305px; overflow:hidden; float:left;  }
+				.companyBox4{ padding-top:55px; width:303px; overflow:hidden; float:left;  }
+				
+				
+		
+	/* ### FOOTER CONTAINER ### */
+	#footerCntr {width:100%; overflow: hidden; background:url(../images/footer_bg.jpg) repeat-x;;}
+	#footerCntrinner{ padding-top:40px; height:141px; width: 980px; margin:0px auto;}
+	
+		
+		/* ### FOOTER LEFT ### */
+		#footerCntrinner .left{ width:350px; float:left;}
+		#footerCntrinner .left .imageBox{ padding-bottom:19px; width:120px; overflow:hidden;}
+		#footerCntrinner .left .imageBox img{ float:left; margin-right:4px; border:none;}
+		#footerCntrinner .left p{color:#9b9999;  font-family:Arial, Helvetica, sans-serif;}
+		#footerCntrinner .left p a {color:#9b9999; text-decoration: none; }
+		#footerCntrinner .left p a:hover { text-decoration: underline; }
+		#footerCntrinner .left ul{ padding:10px 0px 0px 0px; width:380px;}
+		#footerCntrinner .left ul li{  padding:0px 20px 0px 20px;list-style:none; float:left; background:url(../images/footer_line.jpg) left 5px no-repeat;}
+		#footerCntrinner .left ul li a{ font-size:12px; color:#9b9999; text-decoration: none;}
+		#footerCntrinner .left ul li a:hover{ text-decoration: none; color:#76b6eb;}
+		#footerCntrinner .left ul li.first{ background:none; padding-left:0px;}
+	
+		/* ### FOOTER RIGHT ### */
+		#footerCntrinner .right{ padding-right:20px; width:285px; float: right;}
+		#footerCntrinner .right h2{ padding-bottom:9px; font-size: 20px; font-weight:normal; font-family:Myriad Pro;  color: #cecece; border-bottom: solid 1px #616161;}
+		#footerCntrinner .right p{ padding-top:7px; font-family:Arial, Helvetica, sans-serif;  color:#9b9999;}
+	
+			

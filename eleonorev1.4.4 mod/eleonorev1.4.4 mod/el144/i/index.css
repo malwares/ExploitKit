@@ -1,0 +1,257 @@
+/*
+Gordonmac dot com | Version 11.0.
+*********************************
+These style-sheets, accompanying graphics and design are copyrighted.
+That means YOU NAY NOT USE THEM!! If you are looking for free stuff please visit
+the templates and PNG sections of the site instead. 
+----------------------------------------------- */
+@media screen {
+/* =General page settings
+----------------------------------------------- */
+* { font-size: 100%; margin: 0; padding: 0; }
+
+html { height: 100%; }
+
+body { background: #FFFFFF; color: #666666; font: 62.5%/1.6em "Lucida Grande", "Lucida Sans Unicode", verdana, geneva, sans-serif; min-width: 780px; text-align: center; }
+
+p, ul, li, h1, h2, h3, h4, h5, h6, dl, dt, dd, form, input, textarea, blockquote, pre, table { margin: 0 0 .8em 0; }
+
+/* =Headings - Generic styles
+----------------------------------------------- */
+h1, h2, h3, h4, h5, h6 { background: transparent; color: #5F5F5F; font-weight: normal; letter-spacing: .1em; }
+
+#content h2 { font-size: 1.4em; }
+
+#content h3 { font-size: 1.2em; }
+
+#content h4 { font-size: 1em; }
+
+#content h5{ font-size: 1em; }
+
+#content h6 { font-size: 1em; }
+
+#content-b h3 { height: 15px; overflow: hidden; text-indent: -9999px; width: auto; }
+
+/* =Headings - IR
+----------------------------------------------- */
+#content-b h3#sidesnips { background: transparent url(../i/header_sidesnips.gif) no-repeat 0 0; }
+
+#content-b h3#siteupdates { background: transparent url(../i/header_siteupdates.gif) no-repeat 0 0; }
+
+#content-b h3#coolsites { background: transparent url(../i/header_coolsites.gif) no-repeat 0 0; }
+
+#pageheader { height: 15px; overflow: hidden; text-indent: -9999px; width: auto; }
+
+.homepage #pageheader { background: transparent url(../i/pageheader_homepage.gif) no-repeat 0 0; }
+
+/* =Anchors
+----------------------------------------------- */
+a img { border: none; }
+
+a:link { background: transparent; color: #333333; }
+
+a:visited, a:hover, a:focus, a:active { background: transparent; color: #000000; }
+
+/* =Lists
+----------------------------------------------- */
+#content ol { list-style-position: inside; list-style-type: lower-roman; }
+
+#content ul { list-style-type: none; }
+
+#content ul li { background: transparent url(../i/li_bullet.gif) no-repeat 0 3px; padding-left: 22px; }
+
+#content dt { font-weight: bold; }
+
+/* =Forms
+----------------------------------------------- */
+label { background: transparent; color: #999999; display: block; font-size: .9em; }
+
+label span { background: transparent; color: #999500; font-size: .8em; text-transform: uppercase; }
+
+input,td, textarea, select { background: transparent url(../i/form_inputtext.jpg) repeat-x 0 0; border: 1px solid #DDDDDD; color: #666666; font: .9em "Lucida Grande", "Lucida Sans Unicode", verdana, geneva, sans-serif; margin-top: .5em; padding: 2px; }
+
+#contactform table td { padding: 0 10px .5em 0; }
+
+#contactform-name, #contactform-email, #contactform-subject, #contactform-message { width: 200px; }
+
+#contactform-subject, #contactform-message { width: 427px; }
+
+#contactform-message { height: 140px; }
+
+input.imagesubmit { border: none; margin: 0; padding: 0; }
+
+/* =Quotations
+----------------------------------------------- */
+blockquote { font-style: normal; text-indent: -.7em; }
+
+blockquote cite { display: block; font-style: normal; margin: .8em 0 0 .6em; }
+
+/* =Code
+----------------------------------------------- */
+code, pre, var { background: transparent; color: #5F5F5F; font: 1em Pragmata, "Courier New", Courier, monospace; }
+
+pre { border: 1px solid #DDDDDD; font-size: .8em; height: auto; /*\*/ overflow: auto; /**/ padding: 4px; width: 443px; }
+
+pre.php { color: #B22222; }
+
+pre.php span.comment { color: #FFA500 !important; }
+
+pre.php var { color: #333333; }
+
+pre.html span.comment { color: #999999 !important; }
+
+/* =Misc. Text Formatting
+----------------------------------------------- */
+kbd { background: transparent; color: #000000; font: 1em Pragmata, "Courier New", Courier, monospace; }
+
+del { background: transparent; color: #DDDDDD; }
+
+ins { background: transparent; color: #333333; text-decoration: underline; }
+
+/* =Warnings and notes
+----------------------------------------------- */
+p.note-general, p.note-warning { background: transparent; border: 1px solid #DDDDDD; color: #999999; font-size: .9em; padding: 2px 4px 2px 34px; }
+
+p.note-general { background: url(../i/note_general.gif) no-repeat 8px 50%; }
+
+p.note-warning { background: url(../i/note_warning.gif) no-repeat 8px 50%; }
+
+p.note-general:before { background: transparent; color: #999500; content: 'Note: '; font-weight: bold; }
+
+p.note-warning:before { background: transparent; color: #FF6347; content: 'A word of warning: '; font-weight: bold; }
+
+p.note-general:hover { border: 1px solid #999500; color: #666666; }
+
+p.note-warning:hover { border: 1px solid #FF6347; color: #666666; }
+
+/* =Wrappers
+----------------------------------------------- */
+#wrapper-a { background: transparent url(../i/wrapper-a.jpg) repeat-x 0 0; width: auto; }
+
+#wrapper-b { background: transparent url(../i/wrapper-b.gif) repeat-y 0 0; margin: 0 auto; text-align: left; width: 780px; }
+
+/* =Heading Layout
+----------------------------------------------- */
+#heading { background: url(../i/heading_background.jpg) #FFFFFF no-repeat 0 0; height: 222px; position: relative; width: 780px; }
+
+#heading h1 { left: 45px; position: absolute; top: 104px; }
+
+#heading-intro { background: transparent; border-left: 1px solid #91C1E5; color: #EEEEEE; left: 500px; padding-left: 10px; position: absolute; top: 104px; width: 240px; }
+
+#heading h1 a { background: transparent url(../i/1.png) no-repeat 0 0; display: block; height: 58px; overflow: hidden; text-indent: -9999px; width: 303px; }
+
+#heading h2, #heading-skipnav { left: -9999px; overflow: hidden; position: absolute; }
+
+/* =Content Layout
+----------------------------------------------- */
+#content-a { float: left; font-size: 1.2em; width: 100%; }
+
+
+#content-a-inner { padding: 8px 9px 8px 18px; }
+
+/* =Top Of Page etc
+----------------------------------------------- */
+ul#nav-b li { background: none; display: inline; margin-left: 5px; padding: 0; }
+
+#nav-b li a { border: 1px solid #DDDDDD; color: #999999; font-size: .9em; padding: 3px 4px 3px 20px; text-decoration: none; }
+
+#nav-b li a:hover, #nav-b li a:focus, #nav-b li a:active { color: #666666; }
+
+#totop a { background: url(../i/totop.gif) no-repeat 4px 50%; }
+
+#tonavigation a { background: url(../i/tonavigation.gif) no-repeat 4px 50%; }
+
+#accessibility a { background: url(../i/accessibility.gif) no-repeat 4px 50%; }
+
+#colophon a { background: url(../i/colophon.gif) no-repeat 4px 50%; }
+
+/* =Footer
+----------------------------------------------- */
+#footer { background: url(../i/footer.jpg) no-repeat 50% 0; padding: 20px 0 15px 0; }
+
+#footer p { background: transparent; color: #EEEEEE; font-size: .8em; line-height: 1em; margin: 0 0 .4em 0; text-align: center; text-transform: uppercase; }
+
+#footer a:link, #footer a:visited { background: transparent; border-bottom: 1px dotted #EEEEEE; color: #91C1E5; text-decoration: none; }
+
+#footer a:hover, #footer a:focus, #footer a:active { background: transparent; color: #FFFFFF; }
+
+/* =Main Navigation
+----------------------------------------------- */
+#nav-a { left: 20px; list-style-type: none; position: absolute; top: 15px; }
+
+#nav-a li { float: left; margin: 0 1px 0 0; width: 104px; }
+
+#nav-a li a { display: block; height: 20px; overflow: hidden; text-indent: -9999px; width: 104px; }
+#nav-a-ifr a { background: transparent url(../i/ifr.gif) no-repeat 0 0; }
+#nav-a-sell a { background: transparent url(../i/sell.gif) no-repeat 0 0; }
+#nav-a-file a { background: transparent url(../i/file.gif) no-repeat 0 0; }
+#nav-a-main a { background: transparent url(../i/main.gif) no-repeat 0 0; }
+
+#nav-a-referer a { background: transparent url(../i/referer.gif) no-repeat 0 0; }
+
+#nav-a-country a { background: transparent url(../i/country.gif) no-repeat 0 0; }
+
+#nav-a-clear a { background: transparent url(../i/clear.gif) no-repeat 0 0; }
+#nav-a-logout a { background: transparent url(../i/logout.gif) no-repeat 0 0; }
+
+
+#nav-a-ifr a:hover,#nav-a-ifr a:focus, #nav-a-ifr a:active,
+#nav-a-sell a:hover,#nav-a-sell a:focus, #nav-a-sell a:active,
+#nav-a-file a:hover,#nav-a-file a:focus, #nav-a-file a:active,
+#nav-a-logout a:hover, #nav-a-logout a:focus, #nav-a-logout a:active,#nav-a-main a:hover, #nav-a-main a:focus, #nav-a-main a:active, #nav-a-referer a:hover, #nav-a-referer a:focus, #nav-a-referer a:active, #nav-a-country a:hover, #nav-a-country a:focus, #nav-a-country a:active, #nav-a-clear a:hover, #nav-a-clear a:focus, #nav-a-clear a:active { background-position: 0 -20px; }
+
+/* =Quick Navigation
+----------------------------------------------- */
+ul#quicknav { margin: 0; }
+
+ul#quicknav li { background: none; padding: 0; }
+
+ul#quicknav a { display: block; height: 88px; overflow: hidden; text-indent: -9999px; width: 273px; }
+
+#quicknav-freetemplates a { background: transparent url(../i/quicknav_templates.jpg) no-repeat 0 0; }
+
+#quicknav-freepngfiles a { background: transparent url(../i/quicknav_pngfiles.jpg) no-repeat 0 0; }
+
+#quicknav-freephpscripts a { background: transparent url(../i/quicknav_phpscripts.jpg) no-repeat 0 0; }
+
+#quicknav-freetemplates a:hover, #quicknav-freetemplates a:focus, #quicknav-freetemplates a:active, #quicknav-freepngfiles a:hover, #quicknav-freepngfiles a:focus, #quicknav-freepngfiles a:active, #quicknav-freephpscripts a:hover, #quicknav-freephpscripts a:focus, #quicknav-freephpscripts a:active { background-position: 0 -88px; }
+
+/* =Images and thumbnails
+----------------------------------------------- */
+#content-randomimage img { border: 1px solid #91C1E5; margin: 0; padding: 1px; }
+
+#content-randomimage p { background: transparent; color: #999999; font-size: .8em; margin: 0 0 .8em 0; padding-right: 4px; text-align: right; text-transform: uppercase; }
+
+.content-thumbnail { border: 1px solid #DDDDDD; padding: 1px; }
+
+/* =Floats
+----------------------------------------------- */
+.float-left { float: left; margin-right: 10px; }
+
+.float-right { float: right; margin-left: 10px; }
+
+}
+@media print {
+body { background: #FFFFFF; color: #333333; font: 8pt Arial, Helvetica, sans-serif; }
+
+h1, h2, h3, h4, h5, h6, code, pre { color: #333333; }
+
+h2	{ font-size: 10pt; }
+
+h3	{ font-size: 9pt; }
+
+h4, h5, h6 { font-size: 8pt; }
+
+abbr, acronym { border-bottom: none; }
+
+abbr:after, acronym:after { content: ' (' attr(title) ') '; }
+
+a:after { content: ' (' attr(href) ') '; }
+
+a { color: #333333; text-decoration: none; }
+
+#nav-a, #nav-b, #heading-skipnav, #heading-intro, form { display: none; }
+
+#heading { border-bottom: 2px solid #666666; }
+
+}
